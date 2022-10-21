@@ -93,7 +93,7 @@ if (UserInputToEnterToGame != 1) {
     if (UserInput.toUpperCase() === Answer) {
       console.log("");
       score = score + 1;
-      console.log("Correct");
+      console.log("Correct ");
       console.log("You Score is ", score);
       console.log("");
     } else {
